@@ -3,7 +3,7 @@ p {
   font-style: italic;
 }
 #fotoprincipal {
-  background-image: url("/asset/imgs/console.jpg");
+  background-image: url("../imgs/console.jpg");
   background-size: cover;
 }
 #presentacion {
@@ -14,6 +14,22 @@ p {
   text-align: left;
   background-color: rgba(255, 255, 255, 0);
   letter-spacing: 0.1em;
+}
+.list-habilidades{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.5rem;
+}
+.list-intereses{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.5rem;
+}
+.resaltar{
+  font-weight: bold;
+  color: rgb(195, 156, 156) ;
 }
 #portafolio .image-top {
   height: 250px;
